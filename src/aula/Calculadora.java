@@ -13,7 +13,7 @@ public class Calculadora extends JFrame {
 
     public Calculadora() {
 
-        setTitle("aula.Calculadora");
+        setTitle("Calculadora");
         setSize(300, 300);
         setLayout(new GridBagLayout());
         setDefaultCloseOperation(EXIT_ON_CLOSE);
