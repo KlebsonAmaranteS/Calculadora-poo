@@ -1,3 +1,5 @@
+package aula;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -16,6 +18,7 @@ public class Calculadora extends JFrame {
         setLayout(new GridBagLayout());
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        setResizable(false);
 
 
         GridBagConstraints gbc = new GridBagConstraints();
